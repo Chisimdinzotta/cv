@@ -1,22 +1,40 @@
+/************************TAG SELECTORS********************************/
+
         body{
-        background-color: #FDF0E0;
+            background-color: #FDF0E0;
+            }
+            hr{
+            border-style: none;
+            border-top-style: dotted;
+            border-color: #D8D9CF;
+            border-width: 5px;
+            width: 3%;
+            }
+            img{
+            height: 80px;
+            }
+            h1{
+            color:sienna;
+            }
+            h3{
+            color:sienna;
+            }
+            a{
+            color:#4FA095;
+
         }
-        hr{
-        border-style: none;
-        border-top-style: dotted;
-        border-color: #D8D9CF;
-        border-width: 5px;
-        width: 3%;
-        }
-        img{
-        height: 400px;
-        }
-        h1{
-        color:#9BA17B
-        }
-        h3{
-        color:#4FA095
-        }
-        a{
-        color:#4FA095
-        }
+
+/************************ CLASS SELECTORS********************************/
+.myimage{
+background-color: white;
+}
+.Myname{
+color:sienna;
+}
+.Myname:hover{
+color:black;
+.circular{
+border-radius: 100%;
+}
+
+/************************ ID SELECTORS********************************/
